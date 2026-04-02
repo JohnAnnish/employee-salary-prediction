@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 
-# Load model
 model = joblib.load('salary_model.pkl')
 
 # Page config
